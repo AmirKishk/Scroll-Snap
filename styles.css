@@ -16,8 +16,29 @@ body {
   line-height: 1.9;
 }
 
+.content {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  gap: 4rem;
+  text-align: center;
+}
+
 .section {
   height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+p {
+  /* padding-top: 6rem; */
+  width: 120rem;
+  font-size: 3rem;
 }
 
 .s1 {
